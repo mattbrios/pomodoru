@@ -1,0 +1,40 @@
+.container {
+  background: var(--white);
+  width: 100%;
+  max-width: 1200px;
+  position: absolute;
+  bottom: 0;
+  visibility: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation-name: showAlertCookies;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes showAlertCookies {
+  from { bottom: -100px; visibility: visible; }
+  to { bottom: 0; visibility: visible; }
+}
+
+.container
+
+.container p {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.container button {
+  background: var(--blue);
+  color: var(--white);
+}

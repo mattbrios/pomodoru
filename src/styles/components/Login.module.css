@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  max-width: 960px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > img {
+  height: 4rem;
+  margin-bottom: 2rem;
+}
+
+.container .formContent {
+  background: var(--white);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--gray-line);
+}
+
+.container .formContent p {
+  color: var(--text);
+}
+.container .formContent button {
+  color: var(--white);
+  background: var(--blue);
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.customTextField {
+  width: 100%;
+  margin-top: 1rem !important;
+}
